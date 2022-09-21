@@ -22,12 +22,12 @@
 			<h3>MENU</h3>
 			<ul id="menu-toc" class="menu-toc">
 				<li class="menu-toc-current"><a href="#item1">TOP</a></li>
-				<li><a href="#item2">あいさつ</a></li>
-				<li><a href="#item3">ゲーム班</a></li>
-				<li><a href="#item4">メディア班</a></li>
-				<li><a href="#item5">web班</a></li>
-				<li><a href="#item6">電子工作班</a></li>
-				<li><a href="#item7">おわりに</a></li>
+				<li id="1"><a href="#item2">あいさつ</a></li>
+				<li id="2"><a href="#item3">ゲーム班</a></li>
+				<li id="4"><a href="#item5">メディア班</a></li>
+				<li id="5"><a href="#item6">web班</a></li>
+				<li id="6"><a href="#item7">電子工作班</a></li>
+				<li id="7"><a href="#item8">おわりに</a></li>
 			</ul>
 			<img src="./img/header_transparent2.png" alt="logo" class="logo">
 
@@ -49,7 +49,7 @@
 				<div class="bb-item" id="item2">
 					<div class="content">
 						<div class="scroller">
-							<h2>あいさつ</h2>
+							<h2 id="st">あいさつ</h2>
 							<p>But few of the human race die of old age. Besides the thousand and one
 								diseases flesh is heir to, and the disease which Mrs. O'Flannagan said her
 								husband died of, viz., "Of a Saturday 'tis that poor Mike died," very many
@@ -94,56 +94,77 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- ゲーム班目次 -->
 				<div class="bb-item" id="item3">
 					<div class="content">
 						<div class="scroller">
-							<h2>ゲーム班</h2>
-							<p>The origin of the honeymoon is not generally known.</p>
-
-							<p>The Saxons long and long ago got up the delightful occasion. Amongst the
-								ancient Saxons and Teutons a beverage was made of honey and water, and
-								sometimes flavored with mulberries. This drink was used especially at
-								weddings and the after festivals. These festivals were kept up among the
-								nobility sometimes for a month--"monath." The "hunig monath" was thus
-								established, and the next moon after the marriage was called the
-								honeymoon.</p>
-
-							<p>Alaric, about the fifth century king of the Saxons and Western Goths, is
-								said to have actually died on his wedding night from drinking too freely
-								of the honeyed beverage,--at least he died before morning,--and it
-								certainly would seem to be a charitable inference to draw, since he
-								partook very deeply of the "festive drink." It was certainly a sweet
-								oblivion, "yet it should be a warning to posterity, as showing that even
-								bridegrooms may make too merry."</p>
-
-							<p>Dr. Blanchet recently read a paper before the Academy of Science, Paris,
-								relative to some cases of "long sleep," or lethargic slumber. One of them
-								related to a lady twenty years of age, who took a sleeping fit during her
-								_honeymoon_, which lasted fifty days.</p>
-
-							<p>"During this long period a false front tooth had to be taken out in order
-								to introduce milk and broth into her mouth. This was her only food; she
-								remained motionless, insensible, and all her muscles were in a state of
-								contraction. Her pulse was low, her breathing scarcely perceptible; there
-								was no evacuation, no leanness; her complexion was florid and healthy.
-								The other cases were exactly similar. Dr. Blanchet is of opinion that in
-								such cases no stimulants or forced motion ought to be employed.</p>
-
-							<p>"The report did not say whether the husband was pleased or not with her
-								long silence."</p>
-
-							<p>There is too much talk in the world about woman's "_jaw_." As for me, give
-								me the woman who can _talk_; the faster and more sense the better.</p>
-
-							<p><em>From <a href="http://www.gutenberg.org/ebooks/41595" target="_blank">"The Funny Side
-										of Physic"</a> by A. D. Crabtre</em></p>
+							<h2 id="game">ゲーム班</h2>
+							<h3>目次</h3>
+							<!---->
+							<code>ページ番号は仮置き</code>
+							<!---->
+							<div class="toc">
+								<table>
+									<thead>
+										<tr>
+											<th>
+												題目
+											</th>
+											<th>
+												ページ数
+											</th>
+											<th>
+												著者
+											</th>
+										</tr>
+									</thead>
+									<tbody id="table_"></tbody>
+								</table>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="bb-item" id="item4">
+
+				<div class="bb-item" id="INABA">
 					<div class="content">
 						<div class="scroller">
-							<h2>メディア班</h2>
+							<div class="Title">
+								<h2><span>Webコンポーネントについて</span></h2>
+								<p class="author">稲葉 浩晃</p>
+							</div>
+							<div class="page_contents">
+								<div class="left">
+									<p class="sub_title">・webcomponentとは?</p>
+									<p class="frame1">
+										webサイトの中で、カプセル化された再利用可能なhtmlタグを生成する技術のことである。<br>コンポーネント、カプセル化というと、Reactを思い出すが、webコンポーネントはReactなしで、純粋なjavascriptのみで作成できる。
+									</p>
+									<img src="./img/hinaba/h1.PNG" alt="" class="photo_1">
+									<p>図１ webコンポーネントの書き方
+
+										<br><br>Webコンポーネントを用いることで、手軽に再利用可能なタグを生成することができる。<br><br>
+
+										この利点として、<br>
+										・どのページにおいても同じように使いまわすことができる。<br>
+										・修正が必要な点が生じたとき、修正箇所が少なく、開発側にやさしいコードになる。<br>
+										・JavaScriptを用いるので、動的なwebサイト制作にもつなげやすい。<br>
+										などがあげられる。
+									</p>
+								</div>
+								<div class="right">
+									<img src="./img/hinaba/h2.PNG" alt="" class="photo_1">
+									<img src="./img/hinaba/h3.PNG" alt="" class="photo_1">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="bb-item" id="item5">
+					<div class="content">
+						<div class="scroller">
+							<h2 id="media">メディア</h2>
 							<p>Several kings and great lords are made mention of as being particularly
 								fond of using the lancet. Peter the Great of Russia was remarkably fond of
 								witnessing dissections and surgical operations. He even used to carry a
@@ -180,10 +201,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="bb-item" id="item5">
+				<div class="bb-item" id="item6">
 					<div class="content">
 						<div class="scroller">
-							<h2>web班</h2>
+							<h2 id="web">web</h2>
 							<p>From that excellent work, "Scenes in the Practice of a New York Surgeon,"
 								by Dr. E. H. Dixon, I copy, with some abbreviation, the following, which
 								the author terms "Leaves from the Log-book of an Unfledged Æsculapian:"--</p>
@@ -324,58 +345,58 @@
 						</div>
 					</div>
 				</div>
-				<div class="bb-item" id="item6">
-					<div class="content">
-						<div class="scroller">
-							<h2>電子工作班</h2>
-							<p>But few of the human race die of old age. Besides the thousand and one
-								diseases flesh is heir to, and the disease which Mrs. O'Flannagan said her
-								husband died of, viz., "Of a Saturday 'tis that poor Mike died," very many
-								die of disappointment. More _fret_ out. Mr. Beecher said, "It is the
-								fretting that wears out the machinery; friction, not the real wear."</p>
-
-							<p>"Choked with passion" is no chimera; for passion often kills the
-								unfortunate possessor of an irritable temper, sometimes suddenly. Care and
-								over-anxiety sweep away thousands annually.</p>
-
-							<p>Let us see how long a man should live. The horse lives twenty-five years;
-								the ox fifteen or twenty; the lion about twenty; the dog ten or twelve;
-								the rabbit eight; the guinea-pig six or seven years. These numbers all
-								bear a similar proportion to the time the animal takes to grow to its full
-								size. But man, of all animals, is the one that seldom comes up to his
-								average. He ought to live a hundred years, according to this physiological
-								law, for five times twenty are one hundred; but instead of that, he
-								scarcely reaches, on the average, four times his growing period; the cat
-								six times; and the rabbit even eight times the standard of measurement.
-								The reason is obvious. Man is not only the most irregular and the most
-								intemperate, but the most laborious and hard-worked of all animals. He is
-								also the most irritable of all animals; and there is reason to believe,
-								though we cannot tell what an animal secretly feels, that, more than any
-								other animal, man cherishes wrath to keep it warm, and consumes himself
-								with the fire of his secret reflections.</p>
-
-							<p>"Age dims the lustre of the eye, and pales the roses on beauty's cheek;
-								while crows' feet, and furrows, and wrinkles, and lost teeth, and gray
-								hairs, and bald head, and tottering limbs, and limping, most sadly mar the
-								human form divine. But dim as the eye is, pallid and sunken as may be the
-								face of beauty, and frail and feeble that once strong, erect, and manly
-								body, the immortal soul, just fledging its wings for its home in heaven,
-								may look out through those faded windows as beautiful as the dewdrop of
-								summer's morning, as melting as the tears that glisten in affection's eye,
-								by growing kindly, by cultivating sympathy with all human kind, by
-								cherishing forbearance towards the follies and foibles of our race, and
-								feeding, day by day, on that love to God and man which lifts us from the
-								brute, and makes us akin to angels."</p>
-
-							<p><em>From <a href="http://www.gutenberg.org/ebooks/41595" target="_blank">"The Funny Side
-										of Physic"</a> by A. D. Crabtre</em></p>
-						</div>
-					</div>
-				</div>
 				<div class="bb-item" id="item7">
 					<div class="content">
 						<div class="scroller">
-							<h2>さいごに</h2>
+							<h2 id="elect">電子工作</h2>
+							<p>But few of the human race die of old age. Besides the thousand and one
+								diseases flesh is heir to, and the disease which Mrs. O'Flannagan said her
+								husband died of, viz., "Of a Saturday 'tis that poor Mike died," very many
+								die of disappointment. More _fret_ out. Mr. Beecher said, "It is the
+								fretting that wears out the machinery; friction, not the real wear."</p>
+
+							<p>"Choked with passion" is no chimera; for passion often kills the
+								unfortunate possessor of an irritable temper, sometimes suddenly. Care and
+								over-anxiety sweep away thousands annually.</p>
+
+							<p>Let us see how long a man should live. The horse lives twenty-five years;
+								the ox fifteen or twenty; the lion about twenty; the dog ten or twelve;
+								the rabbit eight; the guinea-pig six or seven years. These numbers all
+								bear a similar proportion to the time the animal takes to grow to its full
+								size. But man, of all animals, is the one that seldom comes up to his
+								average. He ought to live a hundred years, according to this physiological
+								law, for five times twenty are one hundred; but instead of that, he
+								scarcely reaches, on the average, four times his growing period; the cat
+								six times; and the rabbit even eight times the standard of measurement.
+								The reason is obvious. Man is not only the most irregular and the most
+								intemperate, but the most laborious and hard-worked of all animals. He is
+								also the most irritable of all animals; and there is reason to believe,
+								though we cannot tell what an animal secretly feels, that, more than any
+								other animal, man cherishes wrath to keep it warm, and consumes himself
+								with the fire of his secret reflections.</p>
+
+							<p>"Age dims the lustre of the eye, and pales the roses on beauty's cheek;
+								while crows' feet, and furrows, and wrinkles, and lost teeth, and gray
+								hairs, and bald head, and tottering limbs, and limping, most sadly mar the
+								human form divine. But dim as the eye is, pallid and sunken as may be the
+								face of beauty, and frail and feeble that once strong, erect, and manly
+								body, the immortal soul, just fledging its wings for its home in heaven,
+								may look out through those faded windows as beautiful as the dewdrop of
+								summer's morning, as melting as the tears that glisten in affection's eye,
+								by growing kindly, by cultivating sympathy with all human kind, by
+								cherishing forbearance towards the follies and foibles of our race, and
+								feeding, day by day, on that love to God and man which lifts us from the
+								brute, and makes us akin to angels."</p>
+
+							<p><em>From <a href="http://www.gutenberg.org/ebooks/41595" target="_blank">"The Funny Side
+										of Physic"</a> by A. D. Crabtre</em></p>
+						</div>
+					</div>
+				</div>
+				<div class="bb-item" id="item8">
+					<div class="content">
+						<div class="scroller">
+							<h2 id="fin">さいごに</h2>
 							<p>But few of the human race die of old age. Besides the thousand and one
 								diseases flesh is heir to, and the disease which Mrs. O'Flannagan said her
 								husband died of, viz., "Of a Saturday 'tis that poor Mike died," very many
@@ -421,7 +442,7 @@
 					</div>
 				</div>
 
-				<div class="bb-item" id="item8">
+				<div class="bb-item" id="item9">
 					<div id="backcover">
 						<img src="./img/backcover.png" alt="カバー(裏表紙)" class="img_">
 					</div>
@@ -438,6 +459,7 @@
 		</div>
 
 	</div><!-- /container -->
+	<script src="./FullscreenBookBlock/js/toc.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="./FullscreenBookBlock/js/jquery.mousewheel.js"></script>
 	<script src="./FullscreenBookBlock/js/jquery.jscrollpane.min.js"></script>
