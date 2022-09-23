@@ -99,14 +99,14 @@ var Page = (function () {
 
 			if ($el === 0) {
 				//idx = メニューパネルで選択したページのインデックス番号。
-				setTimeout(asyncFunc_c, 550); //0の時はトップなのでdiv表示で閉じる//275
-				setTimeout(asyncFunc_o_b, 660);
+				// setTimeout(asyncFunc_c, 550); //0の時はトップなのでdiv表示で閉じる//275
+				// setTimeout(asyncFunc_o_b, 660);
 			} else {
-				setTimeout(asyncFunc_o, 660); //それ以外の時はdivを非表示//330
+				// setTimeout(asyncFunc_o, 660); //それ以外の時はdivを非表示//330
 			}
 
 			current !== $el ? closeTOC(jump) : closeTOC();
-
+			
 			return false;
 		});
 
@@ -140,12 +140,16 @@ var Page = (function () {
 
 	function updateNavigation(isLastPage) {
 		if (current === 0) {
+			asyncFunc_c(255);
 			$navNext.show();
 			$navPrev.hide();
 		} else if (isLastPage) {
+			asyncFunc_c_b();
 			$navNext.hide();
 			$navPrev.show();
 		} else {
+			asyncFunc_o(255);
+			asyncFunc_o_b();
 			$navNext.show();
 			$navPrev.show();
 		}

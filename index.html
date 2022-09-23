@@ -9,10 +9,10 @@
 	<meta name="keywords" content="電気部, 明星大学, 明星大学電気部, 部活, プログラミング, 部誌, 電子ブック, MEISEI UNIVERSITY, club, " />
 	<meta name="author" content="meisei_denkibu" />
 	<link rel="shortcut icon" href="./img/favicon.ico">
-	<link rel="stylesheet" href="./FullscreenBookBlock/css/jquery.jscrollpane.custom.css" />
-	<link rel="stylesheet" href="./FullscreenBookBlock/css/bookblock.css" />
-	<link rel="stylesheet" href="./FullscreenBookBlock/css/custom.css" />
-	<script src="./FullscreenBookBlock/js/modernizr.custom.79639.js"></script>
+	<link rel="stylesheet" href="./Files/css/jquery.jscrollpane.custom.css" />
+	<link rel="stylesheet" href="./Files/css/bookblock.css" />
+	<link rel="stylesheet" href="./Files/css/custom.css" />
+	<script src="./Files/js/modernizr.custom.79639.js"></script>
 </head>
 
 <body>
@@ -129,34 +129,9 @@
 				<div class="bb-item" id="INABA">
 					<div class="content">
 						<div class="scroller">
-							<div class="Title">
-								<h2><span>Webコンポーネントについて</span></h2>
-								<p class="author">稲葉 浩晃</p>
+							<div id="hinaba">
+								
 							</div>
-							<div class="page_contents">
-								<div class="left">
-									<p class="sub_title">・webcomponentとは?</p>
-									<p class="frame1">
-										webサイトの中で、カプセル化された再利用可能なhtmlタグを生成する技術のことである。<br>コンポーネント、カプセル化というと、Reactを思い出すが、webコンポーネントはReactなしで、純粋なjavascriptのみで作成できる。
-									</p>
-									<img src="./img/hinaba/h1.PNG" alt="" class="photo_1">
-									<p>図１ webコンポーネントの書き方
-
-										<br><br>Webコンポーネントを用いることで、手軽に再利用可能なタグを生成することができる。<br><br>
-
-										この利点として、<br>
-										・どのページにおいても同じように使いまわすことができる。<br>
-										・修正が必要な点が生じたとき、修正箇所が少なく、開発側にやさしいコードになる。<br>
-										・JavaScriptを用いるので、動的なwebサイト制作にもつなげやすい。<br>
-										などがあげられる。
-									</p>
-								</div>
-								<div class="right">
-									<img src="./img/hinaba/h2.PNG" alt="" class="photo_1">
-									<img src="./img/hinaba/h3.PNG" alt="" class="photo_1">
-								</div>
-							</div>
-
 						</div>
 					</div>
 				</div>
@@ -459,18 +434,18 @@
 		</div>
 
 	</div><!-- /container -->
-	<script src="./FullscreenBookBlock/js/toc.js"></script>
+	<script src="./Files/js/toc.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="./FullscreenBookBlock/js/jquery.mousewheel.js"></script>
-	<script src="./FullscreenBookBlock/js/jquery.jscrollpane.min.js"></script>
-	<script src="./FullscreenBookBlock/js/jquerypp.custom.js"></script>
-	<script src="./FullscreenBookBlock/js/jquery.bookblock.js"></script>
-	<script src="./FullscreenBookBlock/js/page.js"></script>
+	<script src="./Files/js/jquery.mousewheel.js"></script>
+	<script src="./Files/js/jquery.jscrollpane.min.js"></script>
+	<script src="./Files/js/jquerypp.custom.js"></script>
+	<script src="./Files/js/jquery.bookblock.js"></script>
+	<script src="./Files/js/page.js"></script>
+	<script src="./Files/js/load.js"></script>
 	<script>
 		$(function () {
-
 			Page.init();
-
+			Hinaba.init();
 		});
 	</script>
 </body>

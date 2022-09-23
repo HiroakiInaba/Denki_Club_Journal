@@ -191,24 +191,34 @@
 			}
 
 			if (this.options.keyboard == true) {
-				$(document).keydown(function (e) {
-					var keyCode = e.keyCode || e.which,
+				$(document).on("keydown",function (e) {
+					var keyCode = e.keyCode,
 						arrow = {
 							left: 37,
+							left_: 65,
 							up: 38,
 							right: 39,
+							right_: 68,
 							down: 40
+
 						};
 
 					switch (keyCode) {
 						case arrow.left:
 							self._action('prev');
 							break;
+						case arrow.left_:
+							self._action('prev');
+							break;
 						case arrow.right:
+							self._action('next');
+							break;
+						case arrow.right_:
 							self._action('next');
 							break;
 					}
 				});
+				
 			}
 
 			$window.on('debouncedresize', function () {
@@ -294,7 +304,6 @@
 		},
 		// with no support we consider no 3d transforms and transitions
 		_layoutNoSupport: function (dir) {
-
 			this.$items.hide();
 			this.$nextItem.show();
 			this.end = false;
@@ -337,7 +346,6 @@
 
 					self.end = false;
 					self.isAnimating = false;
-
 					var isLimit = dir === 'next' && self.current === self.itemsCount - 1 || dir === 'prev' && self.current === 0;
 
 					// callback trigger
@@ -378,6 +386,7 @@
 					} : {
 						transition: 'opacity ' + this.options.speed / 2 + 'ms ' + 'linear' + ' ' + this.options.speed / 2 + 'ms'
 					};
+
 
 				$o_middle_f.css(o_middle_f_style);
 				$o_middle_b.css(o_middle_b_style);
@@ -505,7 +514,6 @@
 			this.slideshow = setTimeout(function () {
 
 				self._navigate('next');
-
 				if (self.options.autoplay) {
 					self._startSlideshow();
 				}
@@ -514,7 +522,6 @@
 
 		},
 		_stopSlideshow: function () {
-
 			if (this.options.autoplay) {
 
 				clearTimeout(this.slideshow);
@@ -550,7 +557,6 @@
 		// public method: dynamically adds new elements
 		// call this method after inserting new "bb-item" elements inside the BookBlock
 		update: function () {
-
 			var $currentItem = this.$items.eq(this.current);
 			this.$items = this.$el.children('.bb-item');
 			this.itemsCount = this.$items.length;
@@ -569,7 +575,6 @@
 	$.fn.bookblock = function (options) {
 
 		var instance = $.data(this, 'bookblock');
-
 		if (typeof options === 'string') {
 
 			var args = Array.prototype.slice.call(arguments, 1);
