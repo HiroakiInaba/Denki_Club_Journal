@@ -1,0 +1,42 @@
+#hinaba h2 span:after {
+  background: linear-gradient(to right, rgb(0, 17, 255), rgb(178, 186, 255), transparent);
+}
+#hinaba h2:has(span) {
+  display: flex;
+  font-size: 2em;
+  padding: 0 0 10px;
+  color: #333;
+  margin: 0 1% 40px;
+  text-align: left;
+  text-shadow: 1px 1px 5px rgb(252, 252, 252), 1px 1px 1px rgb(103, 144, 255);
+}
+#hinaba .page_contents {
+  display: flex;
+  width: 100%;
+}
+#hinaba .page_contents .right,
+#hinaba .page_contents .left {
+  width: 50%;
+}
+#hinaba .page_contents .sub_title {
+  -webkit-text-size-adjust: 2em;
+     -moz-text-size-adjust: 2em;
+          text-size-adjust: 2em;
+  display: block;
+  text-decoration: underline;
+  margin: 2% 0;
+}
+#hinaba .page_contents .frame1 {
+  border: #000 solid 1px;
+  background-color: aliceblue;
+}
+#hinaba .page_contents .photo_1 {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+#hinaba .page_contents .page_contents > .left > p:not(.sub_title),
+#hinaba .page_contents .page_contents > .right > p {
+  font-size: 13px;
+}/*# sourceMappingURL=hinaba.css.map */
