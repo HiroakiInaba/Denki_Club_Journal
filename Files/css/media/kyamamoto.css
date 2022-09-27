@@ -1,0 +1,15 @@
+#kyamamoto h2 span:after {
+  background: linear-gradient(to right, rgb(255, 136, 0), rgb(255, 222, 125), transparent);
+}
+#kyamamoto h2:has(span) {
+  display: flex;
+  font-size: clamp(10px, 2.7108433735vw, 100px);
+  padding: 0 0 10px;
+  color: #333;
+  margin: 0 1% 40px;
+  text-align: left;
+  text-shadow: 1px 1px 5px rgb(252, 252, 252), 1px 1px 1px rgb(255, 192, 103);
+}
+#kyamamoto img {
+  width: 100%;
+}/*# sourceMappingURL=kyamamoto.css.map */

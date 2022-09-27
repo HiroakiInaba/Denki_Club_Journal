@@ -106,7 +106,7 @@ var Page = (function () {
 			}
 
 			current !== $el ? closeTOC(jump) : closeTOC();
-			
+
 			return false;
 		});
 
@@ -121,7 +121,6 @@ var Page = (function () {
 		var idx = idx === undefined ? current : idx,
 			$content = $items.eq(idx).children("div.content"),
 			apiJSP = $content.data("jsp");
-
 		if (action === "init" && apiJSP === undefined) {
 			$content.jScrollPane({ verticalGutter: 0, hideFocus: true });
 		} else if (action === "reinit" && apiJSP !== undefined) {
@@ -129,6 +128,7 @@ var Page = (function () {
 		} else if (action === "destroy" && apiJSP !== undefined) {
 			apiJSP.destroy();
 		}
+
 	}
 
 	function updateTOC() {

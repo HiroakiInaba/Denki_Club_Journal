@@ -1,0 +1,56 @@
+#hinaba_g h2 span:after {
+  background: linear-gradient(to right, rgb(0, 17, 255), rgb(178, 186, 255), transparent);
+}
+#hinaba_g h2:has(span) {
+  display: flex;
+  font-size: 2em;
+  padding: 0 0 10px;
+  color: #333;
+  margin: 0 1% 40px;
+  text-align: left;
+  text-shadow: 1px 1px 5px rgb(252, 252, 252), 1px 1px 1px rgb(103, 144, 255);
+}
+#hinaba_g .sub_header {
+  width: 100%;
+  height: 20vw;
+  margin-top: 10px;
+  background-color: rgb(176, 24, 24);
+  display: flex;
+}
+#hinaba_g .sub_header img {
+  width: 30%;
+  height: 100%;
+  margin-left: auto;
+}
+#hinaba_g .page_contents {
+  display: flex;
+  width: 100%;
+}
+#hinaba_g .page_contents .right,
+#hinaba_g .page_contents .left {
+  width: 50%;
+}
+#hinaba_g .page_contents .box27 {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #ffdda6;
+}
+#hinaba_g .page_contents .box27 .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -27px;
+  left: -3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  background: linear-gradient(-45deg, orange, rgb(255, 234, 211));
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+#hinaba_g .page_contents .box27 p {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=hinaba_g.css.map */

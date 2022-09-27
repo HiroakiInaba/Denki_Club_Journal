@@ -5,7 +5,7 @@
 
 	h2:has(span) {
 		display: flex;
-		font-size: 2em;
+		font-size: clamp(10px, 22.5 / 830 * 100vw, 100px);
 		padding: 0 0 10px;
 		color: #333;
 		margin: 0 1% 40px;
@@ -16,7 +16,7 @@
 	.title_main {
 		width: 100%;
 		text-align: center;
-		font-size: 3em;
+		font-size: clamp(10px, 35 / 830 * 100vw, 200px);
 		color: rgb(133, 168, 149);
 		margin: auto;
 	}
@@ -57,7 +57,7 @@
 		margin: auto;
 		text-align: center;
 		font-weight: bold;
-		font-size: 1.45em;
+		font-size: clamp(10px, 5 / 221 * 100vw, 100px);
 		padding: 15px;
 	}
 
@@ -66,7 +66,7 @@
 
 		li {
 			margin: 25px 0;
-			font-size: 1.2em;
+			font-size: clamp(10px, 15 / 830 * 100vw, 70px);
 		}
 	}
 
@@ -77,25 +77,34 @@
 
 	.sub_discription {
 		width: 60%;
+		font-size: clamp(3px, 5 / 331 * 100vw, 70px);
 		word-break: keep-all;
+		word-wrap:none;
 	}
 
-	p > span {
-		font-size: 1.5em;
+	.aviutl > p,
+	.davinch > p,
+	.yu > p {
+		font-size: clamp(10px, 10 / 691 * 100vw, 70px);
+	}
+
+	p>span {
+		font-size: clamp(10px, 5 / 222 * 100vw, 100px);
 		margin: 15px 0;
 		font-weight: bold;
 	}
 
 	.aviutl,
 	.davinch,
-	.yu{
+	.yu {
 		display: flex;
-		padding:50px 0;
+		padding: clamp(10px, 15 / 363 * 100vw, 100px) 0;
 
 	}
 
 	img {
-		width: 25%;
-		height: auto;
+		width:20vw;
+		height: 20vw;
+		margin: auto;
 	}
 }

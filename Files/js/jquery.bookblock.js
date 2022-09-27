@@ -191,7 +191,7 @@
 			}
 
 			if (this.options.keyboard == true) {
-				$(document).on("keydown",function (e) {
+				$(document).on("keydown", function (e) {
 					var keyCode = e.keyCode,
 						arrow = {
 							left: 37,
@@ -218,7 +218,7 @@
 							break;
 					}
 				});
-				
+
 			}
 
 			$window.on('debouncedresize', function () {
@@ -234,6 +234,21 @@
 			this._stopSlideshow();
 			this._navigate(dir, page);
 
+			/*css読み取り処理 cssManage.js*/
+			let pre_css = $("#read_css_person");
+			let css_id = $('.bb-item').eq(this.current).find('.readcss').attr('id');
+			let css_group = $('.bb-item').eq(this.current).find('.readcss').attr('group');
+			if (css_id !== undefined) {
+				setTimeout(function () {
+					RemoveClass(pre_css);
+					ReadCss(css_id, css_group);
+				}, 290);
+			} else {
+				setTimeout(function () {
+					RemoveClass(pre_css);
+				}, 1000);
+			}
+			/* ここまで*/
 		},
 		_navigate: function (dir, page) {
 
@@ -246,7 +261,6 @@
 
 			this.isAnimating = true;
 			this.$current = this.$items.eq(this.current);
-
 			if (page !== undefined) {
 
 				this.current = page;

@@ -1,26 +1,30 @@
 window.FILES = [
 	{
 		group: 'game',
-		files: 'hinaba.html'
+		files: 'hinaba_g.html'
 	},
 	{
 		group: 'media',
 		files: 'mkuramoto.html'
 	},
 	{
+		group: 'media',
+		files: 'kyamamoto.html'
+	},
+	{
 		group: 'elect',
-		files: 'hinaba.html'
+		files: 'stakasu.html'
 	},
 	{
 		group: 'web',
-		files: 'hinaba.html'
+		files: 'hinaba_w.html'
 	},
 ];
 
 window.DATA = [
 	[//game index = 0
 		{
-			content: "Webコンポーネントについて",
+			content: "未定",
 			pages: "3 ~ 4",
 			author: "稲葉 浩晃"
 		}, {
@@ -51,9 +55,9 @@ window.DATA = [
 			pages: "3 ~ 4",
 			author: "倉本 真菜"
 		}, {
-			content: "半年間て気づいたこと",
+			content: "自己紹介、イラストレーターにインタビュー",
 			pages: 5,
-			author: "誰かさん"
+			author: "山本 果歩"
 		}, {
 			content: "猫と可愛いか",
 			pages: 6,
@@ -74,7 +78,7 @@ window.DATA = [
 	],
 	[//web index = 2
 		{
-			content: "ふわっと着地",
+			content: "WebComponentについて",
 			pages: "3 ~ 4",
 			author: "稲葉 浩晃"
 		}, {
