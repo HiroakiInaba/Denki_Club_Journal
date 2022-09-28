@@ -242,7 +242,7 @@
 				setTimeout(function () {
 					RemoveClass(pre_css);
 					ReadCss(css_id, css_group);
-				}, 290);
+				}, 280);
 			} else {
 				setTimeout(function () {
 					RemoveClass(pre_css);

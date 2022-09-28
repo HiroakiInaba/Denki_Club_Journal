@@ -1,3 +1,15 @@
+#hinaba_w h2 span:after {
+  background: linear-gradient(to right, rgb(0, 247, 255), rgb(184, 248, 255), transparent);
+}
+#hinaba_w h2:has(span) {
+  display: flex;
+  font-size: clamp(10px, 2.7108433735vw, 100px);
+  padding: 0 0 10px;
+  color: #333;
+  margin: 0 1% 40px;
+  text-align: left;
+  text-shadow: 1px 1px 5px rgb(211, 251, 253), 1px 1px 1px rgb(184, 248, 255);
+}
 #hinaba_w .page_contents {
   display: flex;
   width: 100%;
