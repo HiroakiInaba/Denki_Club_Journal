@@ -1,0 +1,6 @@
+#knagasawa p {
+  font-size: clamp(10px, 1.2vw, 100px);
+}
+#knagasawa p span {
+  font-size: clamp(10px, 2vw, 100px);
+}

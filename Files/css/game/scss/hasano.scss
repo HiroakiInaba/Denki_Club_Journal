@@ -1,0 +1,96 @@
+#hasano {
+  .intro {
+    width: 80%;
+    background-color: rgb(102, 204, 255);
+    background-image: radial-gradient(#000 1%, transparent 10%),
+      radial-gradient(#000 1%, transparent 10%);
+    background-size: 0.75vw 0.75vw;
+    background-position: 0 0, 0.375vw 0.375vw;
+    border: solid 1px #000;
+    margin: auto;
+
+    h1 {
+      text-align: center;
+      color: white;
+      font-family: 'pop';
+      font-size: clamp(10px, 20/645*100vw, 100px);
+      text-shadow: 1px 1px 0.2vw rgb(78, 155, 194), -1px 1px 0.2vw rgb(78, 155, 194), 1px -1px 0.2vw rgb(78, 155, 194), -1px -1px 0.2vw rgb(78, 155, 194), ;
+    }
+  }
+
+  .dis_intro {
+    margin: auto;
+    width: 75%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    p {
+      font-weight: bold;
+      font-size: clamp(10px, 7.5/645*100vw, 100px);
+    }
+  }
+
+  .dis_intro:not(:has(.nocolor)) {
+    background-color: rgb(204, 255, 255);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px black;
+    border-right: solid 1.5px black;
+    border-bottom: solid 1.5px black;
+  }
+
+  .img_ {
+    display: flex;
+
+    div {
+      margin: auto;
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+  }
+
+  .caution {
+    font-size: clamp(10px, 5/645*100vw, 100px);
+    float: right;
+  }
+
+  div:has(.intro2) {
+    width: 80%;
+    margin: auto;
+    .intro2,
+    .intro3 {
+      margin: auto;
+      width: 100%;
+      margin-top: 5%;
+
+      h4 {
+        font-family: 'pop';
+        font-size: clamp(10px, 8/433*100vw, 100px);
+        width:80%;
+        margin-left:6% ;
+      }
+
+      p {
+        font-weight: bold;
+        font-size: clamp(10px, 7.5/645*100vw, 100px);
+      }
+    }
+
+    .intro2 {
+      h4 {
+        color: rgb(91, 155, 213);
+        text-shadow: 1px 1px 0 white, -1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white, 2px 2px 0 rgb(91, 155, 213);
+      }
+    }
+
+    .intro3 {
+      h4 {
+        color: rgb(196, 89, 17);
+        text-shadow: 1px 1px 0 white, -1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white, 2px 2px 0 rgb(196, 89, 17);
+      }
+    }
+  }
+}

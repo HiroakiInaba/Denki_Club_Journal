@@ -1,0 +1,51 @@
+#hinaba_g h2 span:after, #mmatuzaki h2 span:after, #sitihasi h2 span:after, #hasano h2 span:after, #hyamanaka h2 span:after, #knagasawa h2 span:after, #nsekiguti h2 span:after, #tsikano h2 span:after {
+  background: linear-gradient(to right, rgb(0, 17, 255), rgb(178, 186, 255), transparent);
+}
+#hinaba_g h2:has(span), #mmatuzaki h2:has(span), #sitihasi h2:has(span), #hasano h2:has(span), #hyamanaka h2:has(span), #knagasawa h2:has(span), #nsekiguti h2:has(span), #tsikano h2:has(span) {
+  display: flex;
+  font-size: clamp(10px, 3.1007751938vw, 100px);
+  padding: 0 0 10px;
+  color: #333;
+  margin: 0 1% 40px;
+  text-align: left;
+  text-shadow: 1px 1px 5px rgb(252, 252, 252), 1px 1px 1px rgb(103, 144, 255);
+}
+
+#mkuramoto h2 span:after, #kyamamoto h2 span:after, #ysando h2 span:after, #swatanabe h2 span:after {
+  background: linear-gradient(to right, rgb(255, 136, 0), rgb(255, 222, 125), transparent);
+}
+#mkuramoto h2:has(span), #kyamamoto h2:has(span), #ysando h2:has(span), #swatanabe h2:has(span) {
+  display: flex;
+  font-size: clamp(10px, 2.7108433735vw, 100px);
+  padding: 0 0 10px;
+  color: #333;
+  margin: 0 1% 40px;
+  text-align: left;
+  text-shadow: 1px 1px 5px rgb(252, 252, 252), 1px 1px 1px rgb(255, 192, 103);
+}
+
+#hinaba_w h2 span:after {
+  background: linear-gradient(to right, rgb(0, 247, 255), rgb(184, 248, 255), transparent);
+}
+#hinaba_w h2:has(span) {
+  display: flex;
+  font-size: clamp(10px, 2.7108433735vw, 100px);
+  padding: 0 0 10px;
+  color: #333;
+  margin: 0 1% 40px;
+  text-align: left;
+  text-shadow: 1px 1px 5px rgb(211, 251, 253), 1px 1px 1px rgb(184, 248, 255);
+}
+
+#stakasu h2 span:after {
+  background: linear-gradient(to right, rgb(0, 247, 255), rgb(184, 248, 255), transparent);
+}
+#stakasu h2:has(span) {
+  display: flex;
+  font-size: clamp(10px, 2.7108433735vw, 100px);
+  padding: 0 0 10px;
+  color: #333;
+  margin: 0 1% 40px;
+  text-align: left;
+  text-shadow: 1px 1px 5px rgb(247, 255, 14), 1px 1px 1px rgb(244, 250, 203);
+}

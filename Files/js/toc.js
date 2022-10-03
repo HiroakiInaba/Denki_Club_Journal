@@ -6,11 +6,11 @@ window.addEventListener('DOMContentLoaded', function () {
 		$.each(Data[index], function (index_, val_) {//真ん中。以降は"val_中身"で取得可
 			let tb_ = document.createElement("tr");
 			tb_.setAttribute("id", `index${index}_${index_}`);
-			tb_.innerHTML = '<td class="contents_table">' +
+			tb_.innerHTML = `<td class="contents_table" id = ${val_.id}>` +
 				`${val_.content}` +
 				'</td>' +
 				'<td class="page_table">' +
-				`${val_.pages}` +
+				`${val_.pages} p` +
 				'</td>' +
 				'<td class="author_table">' +
 				`${val_.author}` +
@@ -19,3 +19,4 @@ window.addEventListener('DOMContentLoaded', function () {
 		});
 	});
 });
+

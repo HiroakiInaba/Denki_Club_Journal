@@ -1,0 +1,73 @@
+#nsekiguti div:has(.intro) {
+  width: 100%;
+}
+#nsekiguti div:has(.intro) .intro {
+  width: 75%;
+  margin: auto;
+}
+#nsekiguti div:has(.intro) .intro h1 {
+  font-size: clamp(10px, 1.6279069767vw, 100px);
+  font-weight: bold;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+  text-align: center;
+}
+#nsekiguti div:has(.intro) .dis_intro {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+#nsekiguti div:has(.intro) .dis_intro p {
+  font-size: clamp(10px, 1.1627906977vw, 100px);
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  width: 71.4%;
+  letter-spacing: 1%;
+}
+#nsekiguti div:has(.intro2) {
+  margin: auto;
+}
+#nsekiguti div:has(.intro2) .intro2 {
+  width: 100%;
+  margin: auto;
+}
+#nsekiguti div:has(.intro2) .intro2 h1 {
+  font-size: clamp(10px, 1.6279069767vw, 100px);
+  font-weight: bold;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+  text-align: center;
+}
+#nsekiguti div:has(.intro2) .dis_intro2 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+#nsekiguti div:has(.intro2) .dis_intro2 p {
+  font-size: clamp(10px, 1.1627906977vw, 100px);
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  width: 100%;
+  letter-spacing: 1%;
+}
+#nsekiguti div:has(.intro2) {
+  margin-top: 2%;
+  width: 80%;
+}
+#nsekiguti .img_ {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+#nsekiguti .img_ div {
+  width: 22%;
+}
+#nsekiguti .img_ img {
+  width: 100%;
+}
+#nsekiguti .arrow {
+  margin-top: 2%;
+  font-size: clamp(10px, 1.6279069767vw, 100px);
+}

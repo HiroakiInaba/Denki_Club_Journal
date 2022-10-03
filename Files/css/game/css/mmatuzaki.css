@@ -1,0 +1,15 @@
+#mmatuzaki .sub_title {
+  font-size: clamp(10px, 1.75vw, 100px);
+  font-weight: bold;
+}
+#mmatuzaki p:not(.sub_title) {
+  font-size: clamp(10px, 1.5vw, 100px);
+}
+#mmatuzaki img {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+#mmatuzaki .content_2 {
+  margin-top: 5%;
+}

@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'my';
+	src: url("../font/Mamelon-3.5-Hi-Regular.otf");
+}
+
+#greet_{
+  p{
+    font-size: clamp(10px,20/1521 * 100vw,100px);
+    word-wrap:break-word;
+    word-break: break-all;
+    font-family: my;
+    span{
+      text-decoration:underline double 1px black;
+      text-underline-offset:5px;
+    }
+  }
+}

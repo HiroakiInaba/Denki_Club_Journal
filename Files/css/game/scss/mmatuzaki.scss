@@ -1,0 +1,17 @@
+#mmatuzaki{
+  .sub_title{
+    font-size:clamp(10px, 3.5 / 200 * 100vw, 100px );
+    font-weight: bold;
+  }
+  p:not(.sub_title){
+    font-size:clamp(10px, 3 / 200 * 100vw, 100px );
+  }
+  img{
+    display: block;
+    margin: auto;
+    width:85%;
+  }
+  .content_2{
+    margin-top: 5%;
+  }
+}

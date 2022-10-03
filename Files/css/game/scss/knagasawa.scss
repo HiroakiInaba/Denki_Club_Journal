@@ -1,0 +1,8 @@
+#knagasawa{
+  p{
+    font-size: clamp(10px, 3/250*100vw, 100px);
+    span{
+      font-size: clamp(10px, 5/250*100vw, 100px);
+    }
+  }
+}

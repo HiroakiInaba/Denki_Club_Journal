@@ -1,0 +1,142 @@
+.holder {
+  table {
+    display: block;
+    position: absolute;
+    word-break: keep-all;
+    word-wrap: none;
+    font-size: clamp(10px, 15 / 830 * 100vw, 500px);
+    border-collapse: collapse;
+    border-spacing: 5vw;
+    z-index: 1001;
+
+    th,
+    td {
+      padding: 0px 2vw;
+      padding-top: 0.4vw;
+    }
+
+  }
+
+  table:not(:not(#table_game)) {
+    color: rgb(52, 193, 82);
+    font-family: '8bit';
+    width: 65%;
+    left: 16.5%;
+    top: 19%;
+
+    tr>th {
+      color: #fe60bf;
+      text-align: left;
+      font-size: clamp(10px, 20 / 830 * 100vw, 500px);
+    }
+
+    th,
+    td {
+      border-bottom: dashed 1.5px rgb(149, 255, 137);
+    }
+  }
+}
+
+.holder #table_game+img {
+  position: relative;
+  display: block;
+  width: 94%;
+  margin: auto;
+  z-index: 1;
+}
+
+
+table:not(:not(#table_media)) {
+  color: rgb(186, 147, 70);
+  font-family: 'eiga';
+  width: 55%;
+  left: 13%;
+  top: 36%;
+
+  tr>th {
+    width: 100px;
+    color: #000000;
+    text-align: center;
+    margin-left: 30px;
+    font-size: clamp(10px, 20 / 830 * 100vw, 500px);
+  }
+
+  td {
+    padding-bottom: 2%;
+  }
+}
+
+.toc_media span {
+  font-family: 'eiga';
+  position: absolute;
+  font-size: clamp(10px, 5 / 200 * 100vw, 500px);
+  top: 30%;
+  left: 36.5%;
+  z-index: 1001;
+}
+
+.holder #table_media+img {
+  position: relative;
+  display: block;
+  width: 110%;
+  margin: auto;
+  z-index: 1;
+}
+
+
+table:not(:not(#table_web)) {
+  color: rgb(0, 0, 0);
+  display: none;
+}
+
+.toc_web span {
+  position: absolute;
+  font-size: clamp(10px, 10 / 200 * 100vw, 500px);
+  top: 23%;
+  left: 45%;
+  z-index: 1001;
+}
+
+.toc_hinaba {
+  position: absolute;
+  z-index: 1001;
+  top: 39%;
+  left: 15%;
+  font-size: clamp(10px, 3 / 200 * 100vw, 500px);
+}
+
+.holder #table_web+img {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
+
+
+table:not(:not(#table_elect)) {
+  color: rgb(52, 193, 82);
+  font-family: '8bit';
+}
+
+.contents_table {
+  margin: 5px 0;
+  width: 55%;
+  font-size: 100%;
+  word-wrap: none;
+  text-align: left;
+}
+
+.page_table {
+  width: 30%;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 80%;
+}
+
+.author_table {
+  width: 15%;
+  word-wrap: none;
+  text-align: center;
+  font-size: 80%;
+}

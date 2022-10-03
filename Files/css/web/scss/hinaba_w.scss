@@ -1,0 +1,39 @@
+#hinaba_w {
+
+	.page_contents {
+		display: flex;
+		width: 100%;
+
+		.right,
+		.left {
+			width: 50%;
+		}
+
+		.sub_title {
+			text-size-adjust: 2em;
+			display: block;
+			text-decoration: underline;
+			margin: 2% 0;
+		}
+
+		.frame1 {
+			border: #000 solid 1px;
+			background-color: aliceblue;
+
+		}
+
+		.photo_1 {
+			display: block;
+			width: 90%;
+			margin: auto;
+			margin-top: 5%;
+
+		}
+
+		.page_contents>.left>p:not(.sub_title),
+		.page_contents>.right>p {
+			font-size: 13px;
+		}
+	}
+
+}

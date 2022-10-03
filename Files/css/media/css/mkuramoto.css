@@ -1,0 +1,78 @@
+#mkuramoto .title_main {
+  width: 100%;
+  text-align: center;
+  font-size: clamp(10px, 4.2168674699vw, 200px);
+  color: rgb(133, 168, 149);
+  margin: auto;
+}
+#mkuramoto .page_contents {
+  display: block;
+}
+#mkuramoto .page_contents .content_1,
+#mkuramoto .page_contents .content_2 {
+  width: 100%;
+}
+#mkuramoto .page_contents .head_,
+#mkuramoto .page_contents .foot_ {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(41, 18, 18);
+}
+#mkuramoto .page_contents .content_1 > div {
+  background: rgb(133, 168, 149);
+  width: 20%;
+  margin: 20px 0;
+}
+#mkuramoto .page_contents .gr {
+  background: rgb(133, 168, 149);
+  width: 100%;
+}
+#mkuramoto .sub_title {
+  height: auto;
+  word-wrap: none;
+  word-break: keep-all;
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: clamp(10px, 2.2624434389vw, 100px);
+  padding: 15px;
+}
+#mkuramoto ul {
+  margin-left: 10%;
+}
+#mkuramoto ul li {
+  margin: 25px 0;
+  font-size: clamp(10px, 1.8072289157vw, 70px);
+}
+#mkuramoto .sub_header {
+  width: 60%;
+  display: flex;
+}
+#mkuramoto .sub_discription {
+  width: 60%;
+  font-size: clamp(3px, 1.5105740181vw, 70px);
+  word-break: keep-all;
+  word-wrap: none;
+}
+#mkuramoto .aviutl > p,
+#mkuramoto .davinch > p,
+#mkuramoto .yu > p {
+  font-size: clamp(10px, 1.4471780029vw, 70px);
+}
+#mkuramoto p > span {
+  font-size: clamp(10px, 2.2522522523vw, 100px);
+  margin: 15px 0;
+  font-weight: bold;
+}
+#mkuramoto .aviutl,
+#mkuramoto .davinch,
+#mkuramoto .yu {
+  display: flex;
+  padding: clamp(10px, 4.132231405vw, 100px) 0;
+}
+#mkuramoto img {
+  width: 20vw;
+  height: 20vw;
+  margin: auto;
+}/*# sourceMappingURL=mkuramoto.css.map */

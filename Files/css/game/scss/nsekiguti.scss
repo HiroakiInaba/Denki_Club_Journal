@@ -1,0 +1,89 @@
+#nsekiguti {
+
+  div:has(.intro) {
+    width: 100%;
+
+    .intro {
+      width: 75%;
+      margin: auto;
+
+      h1 {
+        font-size: clamp(10px, 10.5/645*100vw, 100px);
+        font-weight: bold;
+        text-decoration: underline black;
+        text-align: center;
+      }
+    }
+
+    .dis_intro {
+      width: 70%;
+      text-align: center;
+      margin: auto;
+
+      p {
+        font-size: clamp(10px, 7.5/645*100vw, 100px);
+        display: inline-block;
+        text-align: left;
+        margin: auto;
+        width: 71.4%;
+        letter-spacing: 1%;
+
+      }
+    }
+  }
+
+  div:has(.intro2) {
+    margin: auto;
+
+    .intro2 {
+      width: 100%;
+      margin: auto;
+
+      h1 {
+        font-size: clamp(10px, 10.5/645*100vw, 100px);
+        font-weight: bold;
+        text-decoration: underline black;
+        text-align: center;
+      }
+    }
+
+    .dis_intro2 {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+
+      p {
+        font-size: clamp(10px, 7.5/645*100vw, 100px);
+        display: inline-block;
+        text-align: left;
+        margin: auto;
+        width: 100%;
+        letter-spacing: 1%;
+      }
+    }
+  }
+
+
+  div:has(.intro2) {
+    margin-top: 2%;
+    width: 80%;
+  }
+
+  .img_ {
+    display: flex;
+    width:80%;
+    margin: auto;
+
+    div {
+      width: 22%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+  .arrow{
+    margin-top: 2%;
+    font-size: clamp(10px, 10.5/645*100vw, 100px);
+  }
+}

@@ -2,271 +2,311 @@
 <html class="no-js">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>部誌</title>
-	<meta name="description" content="明星大学 電気部 2022年度 部誌です!" />
-	<meta name="keywords" content="電気部, 明星大学, 明星大学電気部, 部活, プログラミング, 部誌, 電子ブック, MEISEI UNIVERSITY, club, " />
-	<meta name="author" content="meisei_denkibu" />
-	<link rel="shortcut icon" href="./img/favicon.ico">
-	<link rel="stylesheet" href="./Files/css/jquery.jscrollpane.custom.css" />
-	<link rel="stylesheet" href="./Files/css/bookblock.css" />
-	<link rel="stylesheet" href="./Files/css/custom.css" />
-	<script src="./Files/js/modernizr.custom.79639.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>部誌</title>
+  <meta name="description" content="明星大学 電気部 2022年度 部誌です!" />
+  <meta name="keywords" content="電気部, 明星大学, 明星大学電気部, 部活, プログラミング, 部誌, 電子ブック, MEISEI UNIVERSITY, club, " />
+  <meta name="author" content="meisei_denkibu" />
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="./Files/css/other/css/jquery.jscrollpane.custom.css" />
+  <link rel="stylesheet" href="./Files/css/other/css/bookblock.css" />
+  <link rel="stylesheet" href="./Files/css/other/css/custom.css" />
+  <link rel="stylesheet" href="./Files/css/other/css/greet.css" />
+  <link rel="stylesheet" href="./Files/css/other/css/toc.css" />
+  <link rel="stylesheet" href="./Files/css/other/css/common.css" />
+
+  <script src="./Files/js/modernizr.custom.79639.js"></script>
 </head>
 
 <body>
-	<div id="container" class="container">
+  <div id="container" class="container">
 
-		<div class="menu-panel">
-			<h3>MENU</h3>
-			<ul id="menu-toc" class="menu-toc">
-				<li id="0" class="menu-toc-current"><a href="#item1">TOP</a></li>
-				<li id="1"><a href="#item2">あいさつ</a></li>
-				<li id="2"><a href="#item3">ゲーム班</a></li>
-				<li id="4"><a href="#item5">メディア班</a></li>
-				<li id="6"><a href="#item7">web班</a></li>
-				<li id="7"><a href="#item8">電子工作班</a></li>
-				<li id="8"><a href="#item9">おわりに</a></li>
-			</ul>
-			<img src="./img/header_transparent2.png" alt="logo" class="logo">
+    <div class="menu-panel">
+      <h3>MENU</h3>
+      <ul id="menu-toc" class="menu-toc">
+        <li id="0" class="menu-toc-current"><a href="#item1">TOP</a></li>
+        <li id="1"><a href="#GREET_S">あいさつ</a></li>
+        <li id="2"><a href="#GAME">ゲーム班</a></li>
+        <li id="11"><a href="#MEDIA">メディア班</a></li>
+        <li id="16"><a href="#WEB">web班</a></li>
+        <li id="18"><a href="#ELECT">電子工作班</a></li>
+        <li id="20"><a href="#GREET_F">おわりに</a></li>
+      </ul>
+      <img src="./img/header_transparent2.png" alt="logo" class="logo">
 
-		</div>
-		<div id="hide_front"></div>
-		<div id="hide_back"></div>
-		<div class="bb-custom-wrapper">
-			<div id="bb-bookblock" class="bb-bookblock">
-				<div class="bb-item" id="item1">
-					<div id="frontcover">
-						<img src="./img/frontcover.png" alt="カバー(表紙)" class="img_">
-					</div>
-					<div class="title_">
-						<h1>部誌タイトル</h1>
-						<p>明星大学 電気部 2022年度 部誌</p>
-					</div>
-
-				</div>
-				<div class="bb-item" id="item2">
-					<div class="content">
-						<div class="scroller">
-							<h2 id="st">あいさつ</h2>
-							<h1>　よ　ろ　し　く　！　</h1>
-						</div>
-					</div>
-				</div>
-
-				<!-- ゲーム班目次 -->
-				<div class="bb-item" id="item3">
-					<div class="content">
-						<div class="scroller">
-							<h2 id="game">ゲーム班</h2>
-							<h3>目次</h3>
-							<!---->
-							<code>ページ番号は仮置き</code>
-							<!---->
-							<div class="toc">
-								<table>
-									<thead>
-										<tr>
-											<th>
-												題目
-											</th>
-											<th>
-												ページ数
-											</th>
-											<th>
-												著者
-											</th>
-										</tr>
-									</thead>
-									<tbody class="table_"></tbody>
-								</table>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="bb-item">
-					<div class="content">
-						<div class="scroller">
-							<div id="hinaba_g" class="readcss" group="game">
-								<!-- 1200 -->
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="bb-item" id="item5">
-					<div class="content">
-						<div class="scroller">
-							<h2 id="media">メディア</h2>
-							<h3>目次</h3>
-							<!---->
-							<code>ページ番号は仮置き</code>
-							<!---->
-							<div class="toc">
-								<table>
-									<thead>
-										<tr>
-											<th>
-												題目
-											</th>
-											<th>
-												ページ数
-											</th>
-											<th>
-												著者
-											</th>
-										</tr>
-									</thead>
-									<tbody class="table_"></tbody>
-								</table>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="bb-item">
-					<div class="content">
-						<div class="scroller">
-							<div id="mkuramoto" class="readcss" group="media">
-								<!-- 1200 -->
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="bb-item">
-					<div class="content">
-						<div class="scroller">
-							<div id="kyamamoto" class="readcss" group="media">
-								<!-- 1200 -->
-							</div>
-						</div>
-					</div>
-				</div>
+    </div>
+    <div id="hide_front"></div>
+    <div id="hide_back"></div>
+    <div class="bb-custom-wrapper">
+      <div id="bb-bookblock" class="bb-bookblock">
+        <div class="bb-item" id="item1">
+          <div id="frontcover">
+            <img src="./img/frontcover.png" alt="カバー(表紙)" class="img_">
+          </div>
+          <div class="title_">
+            <h1>Restart</h1>
+            <p>明星大学 電気部 2022年度 部誌</p>
+          </div>
 
 
-				<div class="bb-item" id="item6">
-					<div class="content">
-						<div class="scroller">
-							<h2 id="web">web</h2>
-							<h3>目次</h3>
-							<!---->
-							<code>ページ番号は仮置き</code>
-							<!---->
-							<div class="toc">
-								<table>
-									<thead>
-										<tr>
-											<th>
-												題目
-											</th>
-											<th>
-												ページ数
-											</th>
-											<th>
-												著者
-											</th>
-										</tr>
-									</thead>
-									<tbody class="table_"></tbody>
-								</table>
-							</div>
-						</div>
-					</div>
-				</div>
+        </div>
+        <div class="bb-item" id="GREET_F">
+          <div class="content">
+            <div class="scroller">
+              <h2 id="st">あいさつ</h2>
+              <div id="greet_">
+                <p class="greet">皆さまこんにちは!<br>2022年度電気部部誌、「Restart」を
+                  読んでいただき、ありがとうございます!<br><br>この部誌は、普段私たちがどんな活動をしているのか、私たちがどんな人間なのかを載せた、魅力の詰まった部誌です！<br><br>タイトルの「Restart」は対面活動が再開されたり、部員も増えて本格的に再出発できそうだな、という考えからつけられました。<br><br>是非楽しんでもらえたら幸いです!<br><span>部長
+                    稲葉</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-				<div class="bb-item">
-					<div class="content">
-						<div class="scroller">
-							<div id="hinaba_w" class="readcss" group="web">
-								<!-- 1200 -->
-							</div>
-						</div>
-					</div>
-				</div>
+        <!-- ゲーム班目次 -->
+        <div class="bb-item" id="GAME">
+          <div class="content">
+            <div class="scroller">
+              <h2 id="game">ゲーム班</h2>
 
-				<div class="bb-item" id="item7">
-					<div class="content">
-						<div class="scroller">
-							<h2 id="elect">電子工作</h2>
-							<h3>目次</h3>
-							<!---->
-							<code>ページ番号は仮置き</code>
-							<!---->
-							<div class="toc">
-								<table>
-									<thead>
-										<tr>
-											<th>
-												題目
-											</th>
-											<th>
-												ページ数
-											</th>
-											<th>
-												著者
-											</th>
-										</tr>
-									</thead>
-									<tbody class="table_"></tbody>
-								</table>
-							</div>
-						</div>
-					</div>
-				</div>
+              <div class="holder">
+                <table id="table_game">
+                  <thead>
+                    <tr>
+                      <th>
+                        目次
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="table_"></tbody>
+                </table>
+                <img src="./img/pc_trans.png" alt="game_背景">
+              </div>
+            </div>
+          </div>
+        </div>
 
-				<div class="bb-item">
-					<div class="content">
-						<div class="scroller">
-							<div id="stakasu" class="readcss" group="elect">
-								<!-- 1200 -->
-							</div>
-						</div>
-					</div>
-				</div>
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="hinaba_g" class="readcss" group="game"></div>
+            </div>
+          </div>
+        </div>
 
-				<div class="bb-item" id="item8">
-					<div class="content">
-						<div class="scroller">
-							<h2 id="fin">さいごに</h2>
-							<h1>　あ　り　が　と　！　</h1>
-						</div>
-					</div>
-				</div>
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="mmatuzaki" class="readcss" group="game"></div>
+            </div>
+          </div>
+        </div>
 
-				<div class="bb-item" id="item9">
-					<div id="backcover">
-						<img src="./img/backcover.png" alt="カバー(裏表紙)" class="img_">
-					</div>
-				</div>
-			</div>
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="sitihasi" class="readcss" group="game"></div>
+            </div>
+          </div>
+        </div>
 
-			<nav>
-				<span id="bb-nav-prev">&larr;</span>
-				<span id="bb-nav-next">&rarr;</span>
-			</nav>
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="hasano" class="readcss" group="game"></div>
+            </div>
+          </div>
+        </div>
 
-			<span id="tblcontents" class="menu-button"></span>
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="nsekiguti" class="readcss" group="game"></div>
+            </div>
+          </div>
+        </div>
 
-		</div>
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="knagasawa" class="readcss" group="game"></div>
+            </div>
+          </div>
+        </div>
 
-	</div><!-- /container -->
-	<script src="./Files/js/toc.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="./Files/js/jquery.mousewheel.js"></script>
-	<script src="./Files/js/jquery.jscrollpane.min.js"></script>
-	<script src="./Files/js/jquerypp.custom.js"></script>
-	<script src="./Files/js/jquery.bookblock.js"></script>
-	<script src="./Files/js/page.js"></script>
-	<script src="./Files/js/load.lib.js"></script>
-	<script src="./Files/js/load.js"></script>
-	<script>
-		$(function () {
-			Page.init();
-		});
-	</script>
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="tsikano" class="readcss" group="game"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="hyamanaka" class="readcss" group="game"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item" id="MEDIA">
+          <div class="content">
+            <div class="scroller">
+              <h2 id="media">メディア</h2>
+              <div class="holder">
+                <p class="toc_media"><span>目次</span></p>
+                <table id="table_media">
+                  <tbody class="table_"></tbody>
+                </table>
+                <img src="./img/movie_trans.PNG" alt="game_背景">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="mkuramoto" class="readcss" group="media">
+                <!-- 1200 -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="kyamamoto" class="readcss" group="media">
+                <!-- 1200 -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="ysando" class="readcss" group="media">
+                <!-- 1200 -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="swatanabe" class="readcss" group="media">
+                <!-- 1200 -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item" id="WEB">
+          <div class="content">
+            <div class="scroller">
+              <h2 id="web">web</h2>
+              <div class="holder">
+                <p class="toc_web"><span>目次</span></p>
+                <ul class="toc_hinaba">
+                  <li>タイトル : web製作技術集</li>
+                  <li>著者&emsp;&emsp;&nbsp;: 稲葉浩晃</li>
+                  <li>ページ&emsp; : 3p</li>
+                </ul>
+                <table id="table_web">
+                  <tbody class="table_"></tbody>
+                </table>
+                <img src="./img/web.png" alt="web_背景">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="hinaba_w" class="readcss" group="web">
+                <!-- 1200 -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item" id="ELECT">
+          <div class="content">
+            <div class="scroller">
+              <h2 id="elect">電子工作</h2>
+              <div class="page_toc">
+                <p>目次</p>
+              </div>
+              <!---->
+              <code>ページ番号は仮置き</code>
+              <!---->
+              <div class="toc">
+                <table>
+                  <tbody class="table_"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item">
+          <div class="content">
+            <div class="scroller">
+              <div id="stakasu" class="readcss" group="elect">
+                <!-- 1200 -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item" id="GREET_F">
+          <div class="content">
+            <div class="scroller">
+              <h2 id="fin">さいごに</h2>
+              <h1>　あ　り　が　と　！　</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="bb-item" id="item9">
+          <div id="backcover">
+            <img src="./img/backcover.png" alt="カバー(裏表紙)" class="img_">
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <span id="bb-nav-prev">&larr;</span>
+        <span id="bb-nav-next">&rarr;</span>
+      </nav>
+
+      <span id="tblcontents" class="menu-button"></span>
+
+    </div>
+
+  </div><!-- /container -->
+  <script src="./Files/js/toc.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="./Files/js/jquery.mousewheel.js"></script>
+  <script src="./Files/js/jquery.jscrollpane.min.js"></script>
+  <script src="./Files/js/jquerypp.custom.js"></script>
+  <script src="./Files/js/jquery.bookblock.js"></script>
+  <script src="./Files/js/page.js"></script>
+  <script src="./Files/js/load.lib.js"></script>
+  <script src="./Files/js/load.js"></script>
+  
+  <script>
+    $(function () {
+      Page.init();
+    });
+  </script>
 </body>
 
 </html>
