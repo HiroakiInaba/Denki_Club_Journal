@@ -1,0 +1,11 @@
+#hyamanaka {
+  margin: auto;
+}
+#hyamanaka img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+#hyamanaka img:last-child {
+  margin-top: -0.3vw;
+}

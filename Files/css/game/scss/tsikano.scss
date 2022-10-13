@@ -1,0 +1,9 @@
+#tsikano {
+  p {
+    font-size: clamp(10px, 7.5/645*100vw, 100px);
+    margin-top: 3%;
+  }
+  .content_1 >img{
+    width:100%;
+  }
+}
