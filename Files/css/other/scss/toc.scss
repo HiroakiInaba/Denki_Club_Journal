@@ -114,10 +114,22 @@ table:not(:not(#table_web)) {
   z-index: 1;
 }
 
+.holder #table_elect+img {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+  border-radius: 3px;
+}
 
 table:not(:not(#table_elect)) {
-  color: rgb(52, 193, 82);
-  font-family: '8bit';
+  color: rgb(247, 255, 248);
+  width: 60%;
+  position: absolute;
+  font-size: clamp(10px, 5 / 200 * 100vw, 500px);
+  top: 25vw;
+  left: 15vw;
 }
 
 .contents_table {

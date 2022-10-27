@@ -1,5 +1,51 @@
-#stakasu{
-	img{
-		width: 100%;
+#stakasu {
+	img {
+		width: 70%;
+		display: block;
+		margin: auto;
+	}
+
+	font-size: clamp(10px, 3/250*100vw, 100px);
+
+	.content_1 {
+		.overlap {
+			p {
+				position: absolute;
+				top: 40vw;
+				right: 7vw;
+			}
+		}
+		div{
+			margin-top: 5%;
+			.dis_img{
+				width:70%;
+				text-align: left;
+				white-space: nowrap;
+			}
+			.break{
+				text-decoration: line-through;
+			}
+		}
+	}
+	.content_2 {
+		margin-top: 5%;
+		p{
+			margin-top: 5%;
+			span{
+				margin-top: 2%;
+				font-size:clamp(30px, 7.5/250*100vw, 300px);
+			}
+		}
+	}
+	.content_3 {
+		margin-top: 5%;
+		ul{
+			li{
+				list-style: none;
+				font-size: clamp(10px, 3.5/250*100vw, 100px);
+				margin-bottom: 5%;
+				margin-left: 5%;
+			}
+		}
 	}
 }

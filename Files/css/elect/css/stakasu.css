@@ -1,3 +1,43 @@
+#stakasu {
+  font-size: clamp(10px, 1.2vw, 100px);
+}
 #stakasu img {
-  width: 100%;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+#stakasu .content_1 .overlap p {
+  position: absolute;
+  top: 40vw;
+  right: 7vw;
+}
+#stakasu .content_1 div {
+  margin-top: 5%;
+}
+#stakasu .content_1 div .dis_img {
+  width: 70%;
+  text-align: left;
+  white-space: nowrap;
+}
+#stakasu .content_1 div .break {
+  text-decoration: line-through;
+}
+#stakasu .content_2 {
+  margin-top: 5%;
+}
+#stakasu .content_2 p {
+  margin-top: 5%;
+}
+#stakasu .content_2 p span {
+  margin-top: 2%;
+  font-size: clamp(30px, 3vw, 300px);
+}
+#stakasu .content_3 {
+  margin-top: 5%;
+}
+#stakasu .content_3 ul li {
+  list-style: none;
+  font-size: clamp(10px, 1.4vw, 100px);
+  margin-bottom: 5%;
+  margin-left: 5%;
 }
