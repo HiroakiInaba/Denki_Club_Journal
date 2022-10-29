@@ -60,43 +60,43 @@ window.FILES = [
 window.DATA = [
   [//game index = 0
     {
-      content: "未定",
-      pages: "3",
+      content: "Who are you?",
+      pages: 3,
       author: "稲葉浩晃",
       id: "3"
     }, {
       content: "作品紹介",
-      pages: 5,
+      pages: 4,
       author: "松崎雅巳",
       id: "4"
     }, {
       content: "自己紹介,モデリング",
-      pages: 6,
+      pages: 5,
       author: "市橋沙夜",
       id: "5"
     }, {
       content: "自作ゲーム「Quadline」",
-      pages: 7,
+      pages: 6,
       author: "浅野文哉",
       id: "6"
     }, {
       content: "Discord Bot",
-      pages: "8",
+      pages: 7,
       author: "関口直生",
       id: "7"
     }, {
       content: "自己紹介",
-      pages: "8",
+      pages: 8,
       author: "長澤浩平",
       id: "8"
     }, {
       content: "Chromeの拡張機能",
-      pages: "8",
+      pages: 9,
       author: "鹿野泰生",
       id: "9"
     }, {
       content: "自己紹介",
-      pages: "8",
+      pages: 10,
       author: "山中晴斗",
       id: "10"
     }
@@ -104,22 +104,22 @@ window.DATA = [
   [//media index = 1
     {
       content: "編集モロモロをポロポロと",
-      pages: "3",
+      pages: 12,
       author: "倉本真菜",
       id: "12"
     }, {
       content: "自己紹介、イラストレーターにインタビュー",
-      pages: 5,
+      pages: 13,
       author: "山本果歩",
       id: "13"
     }, {
       content: "自己紹介",
-      pages: 6,
+      pages: 14,
       author: "三戸祐夏",
       id: "14"
     }, {
       content: "自己紹介",
-      pages: 7,
+      pages: 15,
       author: "渡辺颯太",
       id: "15"
     }
@@ -127,7 +127,7 @@ window.DATA = [
   [//web index = 2
     {
       content: "WebComponentについて",
-      pages: "3~4",
+      pages: 17,
       author: "稲葉浩晃",
       id: "17"
     }
@@ -135,7 +135,7 @@ window.DATA = [
   [//elect index = 3
     {
       content: "活動実績",
-      pages: "3~4",
+      pages: 19,
       author: "高須俊輔",
       id: "19"
     }
