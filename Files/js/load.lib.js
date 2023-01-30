@@ -62,42 +62,42 @@ window.DATA = [
     {
       content: "Who are you?",
       pages: 3,
-      author: "稲葉浩晃",
+      author: "hiropen1414",
       id: "3"
     }, {
       content: "作品紹介",
       pages: 4,
-      author: "松崎雅巳",
+      author: "MASSAR",
       id: "4"
     }, {
       content: "自己紹介,モデリング",
       pages: 5,
-      author: "市橋沙夜",
+      author: "ぼうよみ",
       id: "5"
     }, {
       content: "自作ゲーム「Quadline」",
       pages: 6,
-      author: "浅野文哉",
+      author: "え～えふ",
       id: "6"
     }, {
       content: "Discord Bot",
       pages: 7,
-      author: "関口直生",
+      author: "す。",
       id: "7"
     }, {
       content: "自己紹介",
       pages: 8,
-      author: "長澤浩平",
+      author: "coffee",
       id: "8"
     }, {
       content: "Chromeの拡張機能",
       pages: 9,
-      author: "鹿野泰生",
+      author: "しか",
       id: "9"
     }, {
       content: "自己紹介",
       pages: 10,
-      author: "山中晴斗",
+      author: "山中",
       id: "10"
     }
   ],
@@ -105,22 +105,22 @@ window.DATA = [
     {
       content: "編集モロモロをポロポロと",
       pages: 12,
-      author: "倉本真菜",
+      author: "倉本",
       id: "12"
     }, {
       content: "自己紹介、イラストレーターにインタビュー",
       pages: 13,
-      author: "山本果歩",
+      author: "のるる",
       id: "13"
     }, {
       content: "自己紹介",
       pages: 14,
-      author: "三戸祐夏",
+      author: "酢酸",
       id: "14"
     }, {
       content: "自己紹介",
       pages: 15,
-      author: "渡辺颯太",
+      author: "よう",
       id: "15"
     }
   ],
@@ -128,7 +128,7 @@ window.DATA = [
     {
       content: "WebComponentについて",
       pages: 17,
-      author: "稲葉浩晃",
+      author: "hiropen1414",
       id: "17"
     }
   ],
@@ -136,7 +136,7 @@ window.DATA = [
     {
       content: "活動実績",
       pages: 19,
-      author: "高須俊輔",
+      author: "ok21ok22",
       id: "19"
     }
   ]
